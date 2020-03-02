@@ -22,7 +22,7 @@ public class Main {
         // I am from batch 15
         // I am from Your city here
         // I love Java
-
+        System.out.println("Java is fun");
 
     }
 
