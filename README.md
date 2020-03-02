@@ -2,4 +2,4 @@
 
 ![Cybertek White Logo](https://cybertekschool.com/assets/img/cybertek_logo_dark.svg "halis can")
 
-This is Cybertek School Batch 15 Online Java Programming Repository
+This is Halis can School Batch 15 Online Java Programming Repository
