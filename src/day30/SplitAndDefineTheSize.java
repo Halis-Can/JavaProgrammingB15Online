@@ -24,12 +24,12 @@ public class SplitAndDefineTheSize {
         String[] wordsArray5 = sentence.split(" ", 5);
         String[] wordsArray6 = sentence.split(" ", 6);
 
-        System.out.println("wordsArray1 = " + Arrays.toString(wordsArray1));
+        System.out.println("wordsArray1 = " + Arrays.toString(wordsArray1));//===>wordsArray1 = [I love Java Java Java]
         System.out.println("wordsArray2 = " + Arrays.toString(wordsArray2));
         System.out.println("wordsArray3 = " + Arrays.toString(wordsArray3));
-        System.out.println("wordsArray4 = " + Arrays.toString(wordsArray4));
+        System.out.println("wordsArray4 = " + Arrays.toString(wordsArray4));//==>wordsArray4 = [I, love, Java, Java Java]
         System.out.println("wordsArray5 = " + Arrays.toString(wordsArray5));
-        System.out.println("wordsArray6 = " + Arrays.toString(wordsArray6));
+        System.out.println("wordsArray6 = " + Arrays.toString(wordsArray6));//==>wordsArray6 = [I, love, Java, Java, Java]
 
 
         //System.out.println("wordsArray size = " + wordsArray.length);

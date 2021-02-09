@@ -1012,14 +1012,14 @@ public class CarInventory1000 {
         int chevyCNT = 0;
         int civicCNT = 0;
 
-        for (int x = 0; x < cars.length; x++) {
+        for (int i = 0; i < cars.length; i++) {
 
             //System.out.println( cars[x]   );
-            if (cars[x].contains("Chevrolet")) {
+            if (cars[i].contains("Chevrolet")) {
                 chevyCNT++;
             }
 
-            if (cars[x].contains("Civic")) {
+            if (cars[i].contains("Civic")) {
                 civicCNT++;
             }
 
@@ -1030,11 +1030,11 @@ public class CarInventory1000 {
 
         // TASK 2 : PRINT ALL LOCATION OF Honda-Civic in this array
         // Honda-Civic
-        for (int x = 0; x < cars.length; x++) {
+        for (int i = 0; i < cars.length; i++) {
 
-            //if( cars[x].contains("Civic") ){
-            if (cars[x].equals("Honda-Civic")) {
-                System.out.println("Civic found at location : " + x);
+            //if( cars[i].contains("Civic") ){
+            if (cars[i].equals("Honda-Civic")) {
+                System.out.println("Civic found at location : " + i);
             }
 
         }

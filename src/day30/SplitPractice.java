@@ -22,11 +22,11 @@ public class SplitPractice {
 
         String car = "Lexus-IS-F";
         String[] carSplitted = car.split("-", 2);
-        System.out.println("carSplitted = " + Arrays.toString(carSplitted));
-        System.out.println("car = " + car);
+        System.out.println("carSplitted = " + Arrays.toString(carSplitted));//==>carSplitted = [Lexus, IS-F]
+        System.out.println("car = " + car);//===>car = Lexus-IS-F
 
         String model = carSplitted[1];
-        System.out.println("model = " + model);
+        System.out.println("model = " + model);//==>model = IS-F
 
 
     }
