@@ -11,14 +11,14 @@ public class NameChecker {
         System.out.println("Enter your name please : ");
         String name = scan.next();
 
-        int lenthOfTheName = name.length();
-        System.out.println("lenth Of The Name = " + lenthOfTheName);
+        int lengthOfTheName = name.length();
+        System.out.println("lenth Of The Name = " + lengthOfTheName);
 
-        if (lenthOfTheName < 4) {
+        if (lengthOfTheName < 4) {
             System.out.println("Short Name");
             //}else if( lenthOfTheName >= 4 && lenthOfTheName <= 11   ){
             // lenthOfTheName >=4
-        } else if (lenthOfTheName <= 11) {
+        } else if (lengthOfTheName <= 11) {
 
             System.out.println("Medium Name");
         } else {
