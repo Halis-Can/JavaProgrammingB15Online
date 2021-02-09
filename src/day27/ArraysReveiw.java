@@ -42,13 +42,13 @@ public class ArraysReveiw {
         int num1 = arr[arr.length - 1];
         //               6      -    1   = 5
         System.out.println(num1);
-        System.out.println("===================================");
+        System.out.println("============11111================");
 
         // expected: 10 20 30 40 50 60
         for (int x = 0; x < arr.length; x++) {
             System.out.print(arr[x] + " ");
         }
-        System.out.println("\n===================================");
+        System.out.println("\n=============22222===================");
 
         // Arrays.toString(VariableName):
         String str = Arrays.toString(arr);

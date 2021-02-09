@@ -28,7 +28,7 @@ public class MethodPractice3 {
         }
 
     }
-    // Create a method to spell your name :  Seda -->> S-e-d-a
+
 
     public static void main(String[] args) {
 

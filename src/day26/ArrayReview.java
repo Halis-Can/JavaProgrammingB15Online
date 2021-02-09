@@ -24,14 +24,14 @@ public class ArrayReview {
 //        String   --->   null
 //
 //
-//        3 ways to create an array object and assign it to variable
+//        ==?>you can use 3 ways to create an array object and assign it to variable
         // 1st way
         int[] myNumbers = new int[4];   // 4 is item count
         // we assign value using array variable and it's index
         myNumbers[0] = 10;
         myNumbers[1] = 40;
         myNumbers[2] = 30;
-        myNumbers[3] = 7;
+        myNumbers[3] =  7;
 
         // 2nd way of creating an array
         int[] myNumbers2 = new int[]{10, 40, 30, 7};

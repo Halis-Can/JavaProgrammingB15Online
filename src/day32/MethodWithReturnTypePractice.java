@@ -9,6 +9,7 @@ public class MethodWithReturnTypePractice {
         System.out.println(divide(10, 3));
         System.out.println(divide(10, 0));
         System.out.println(divide(0, 10));
+        System.out.println(divide2(5, 10));
 
     }
 
@@ -43,7 +44,22 @@ public class MethodWithReturnTypePractice {
         } else {   // if not ,
             return num1 / num2;  // we just return actual result
         }
-
     }
+
+    /**
+     *
+     * @param num3
+     * @param num4
+     * @return
+     */
+        public static double divide2(double num3, double num4) {
+            // to avoid to get the result we did not wanted
+            if (num4 == 0) {  // we check if num2 is 0
+                return 0.0;  // if it is we just return 0.0
+            } else {   // if not ,
+                return num3 / num4;  // we just return actual result
+
+            }
+        }
 
 }

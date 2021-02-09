@@ -10,7 +10,7 @@ public class MethodPractice {
         MethodPractice.sayHelloWorld7Times();
         // you can call static method of other class
         // using classname.methodname(..)
-        //MethodIntro.sayHello();
+        MethodIntro.sayHello();
 
         calculateMathProblem();
 

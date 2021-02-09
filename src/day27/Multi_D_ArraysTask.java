@@ -1,5 +1,7 @@
 package day27;
 
+import java.util.Arrays;
+
 public class Multi_D_ArraysTask {
 
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class Multi_D_ArraysTask {
         }
 
         System.out.println(max);
+        System.out.println(Arrays.deepToString(numbers));
 
         // solution 2:
         int max2 = numbers[0][0];

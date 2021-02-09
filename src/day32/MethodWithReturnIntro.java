@@ -3,23 +3,26 @@ package day32;
 public class MethodWithReturnIntro {
 
     public static void main(String[] args) {
+        MethodWithReturnIntro.giveMeMyName();
+        MethodWithReturnIntro.doubleTheNumber(10);
+        MethodWithReturnIntro.add2Numbers(12,22);
 
-        String name = giveMeMyName();
-        System.out.println("name = " + name);
-
-        int myResult = doubleTheNumber(10);
-        System.out.println("myResult = " + myResult);
-        // System.out.println( Arrays.toString(arrayObjectHere) ) ;
-        // just like we can directly use the toString method above and print the value
-        // we can print the result of a method call directly , if the method return a value
-        System.out.println("result of doubling 100 is " + doubleTheNumber(100));
-//        System.out.println( doubleTheNumber(5)  );
-//        System.out.println( doubleTheNumber(15)  );
-
-        int add14to16Result = add2Numbers(14, 16);
-        System.out.println("add 14 to 16 Result = " + add14to16Result);
-
-        System.out.println(add2Numbers(14, 16) + 5);
+//        String name = giveMeMyName();
+//        System.out.println("name = " + name);
+//
+//        int myResult = doubleTheNumber(10);
+//        System.out.println("myResult = " + myResult);
+//        // System.out.println( Arrays.toString(arrayObjectHere) ) ;
+//        // just like we can directly use the toString method above and print the value
+//        // we can print the result of a method call directly , if the method return a value
+//        System.out.println("result of doubling 100 is " + doubleTheNumber(100));
+////        System.out.println( doubleTheNumber(5)  );
+////        System.out.println( doubleTheNumber(15)  );
+//
+//        int add14to16Result = add2Numbers(14, 16);
+//        System.out.println("add 14 to 16 Result = " + add14to16Result);
+//
+//        System.out.println(add2Numbers(14, 16) + 5);
 
     }
 
@@ -53,7 +56,7 @@ public class MethodWithReturnIntro {
     public static String giveMeMyName() {
         // assume getting my name
         // is multi steps complex operations
-        return "Akbar";
+        return "Halis";
 
     }
 
